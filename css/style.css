@@ -1,3 +1,135 @@
+/* General */
 * {
 
 }
+
+/* Typography */
+
+
+
+/* Utilities */
+
+
+
+/* Header */
+
+
+
+/* Main */
+
+
+
+/* Footer */
+
+
+
+/* Responsive - Extra-Small Devices (graphic-3.png 500px) */
+@media all and (max-width: 767px) {
+
+}
+
+
+/* Responsive - Small Devices (graphic-2.png 776px) */
+@media all and (min-width: 768px) {
+
+}
+
+
+/* Responsive - Medium Devices (no screenshot) */
+@media all and (min-width: 992px) {
+
+}
+
+
+/* Responsive - Large devices (graphic-1.png 1630px)*/
+@media all and (min-width: 1200px) {
+
+}
+
+
+/*  Colors */
+/*
+            MAIN MENU
+bg_white    BG: #fff
+ds_blue     Hamburger & Signup-button: #6899ff
+            <a> & dropdown color: #1e325e
+
+            JUMBOTRON-LEFT
+            BG: (image)
+white       H1: #fff
+            Text: #b9cbff
+
+            JUMBOTRON-RIGHT
+bg_white    BG: #fff
+            "Deploy": #031c4d
+            "Get started": #066afe
+            Placeholder: #848484
+            1st Button BG: #579aff
+white       1st Button Color: #fff
+bg_white    2nd Button BG: #fff
+            2nd Button Color: #717171
+            Subtext: #405075
+            Subtext <a>: #3680fe
+
+            CUSTOMERS
+            BG: #f3f5f9
+            Title: #f3f5f9
+ds_link     <a>: #397efe
+
+            PROCESS
+            BG: #fff
+s_title     Section title & mini-section titles: #1e325e
+s_text      Text: #606e8b
+            Menu-left <a>: #7d86a0
+            Menu-left border: #d6d6d6
+
+            SLIDER_DEMO
+bg_slider   BG: #f3f5f9
+            Section title & right-arrow: #031c4d
+            Left-arrow: #707a97
+s_text      Text: #606e8b
+ds_circle   Circles BG / Border: #006afe
+
+            FEATURES
+bg_white    BG: #fff
+s_title     Section title & mini-section titles: #1e325e
+s_text      Text: #606e8b
+ds_link     <a>: #397efe
+
+            WORLD-SPEED
+            BG: linear-gradient
+white       Section title & code
+s_text      Location text: #606e8b
+ds_link*    <a>: #00ccd0 (manterrà l'::after)
+            Border-bottom: white
+
+            REVIEWS
+bg_slider   BG: #f3f5f9
+            slider BG: #fff
+s_text      slider text: #606e8b
+            reviewer sign: #031c4d (fw500)
+            reviewer role: #031c4d (fw400)
+ds_link     <a>: #397efe
+ds_circle   Circles BG / Border: #006afe
+
+            GET_STARTED
+            BG: #0032ac
+white       Section title: #fff
+bg_white    button BG: #fff
+ds_blue     button text: #6899ff
+
+            MAIN-FOOTER
+            BG: #031c4d
+            social icons, copyright: #7a849d
+            subtext: #4d5b7d
+white       column title: #fff
+s_text*     column <a>: #606e8b (just color)
+
+            CHAT
+            BG: image
+            BG fallback: #006afe
+            BG notifies number: #ff0100
+            BG chat: #fff
+            Chat text: #606e8b
+
+~ end colors */
