@@ -1,23 +1,119 @@
 /* General */
-* {
-
+body {
+  background-color: purple;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Typography */
 
 
-
 /* Utilities */
+.do_bg-white {
+  background-color: #fff;
+}
 
+.do_white {
+  color: #fff;
+}
 
+.do_grey {
+  color: #fff;
+  opacity: .8;
+}
 
-/* Header */
+.do_darkblue,
+.do_darkblue a {
+  color: #031b4e;
+}
 
+.do_electroblue {
+  color: #066afe;
+}
 
+.do_link {
+  color: #0069ff;
+}
 
-/* Main */
+.do_link::after {
+  content: ' >';
+  padding-left: 5px;
+}
 
+/* Header - Navigation */
+#navigation {
+  height: 65px;
+}
 
+#navigation .do_navbar {
+  position: relative;
+}
+
+#navigation .do_navbar > .container {
+  position: fixed;
+  height: 65px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 65px;
+  vertical-align: middle;
+}
+
+#navigation .do_brand {
+  padding-left: 0;
+}
+
+#navigation .do_brand img {
+  width: 160px;
+  margin-bottom: 3px;
+}
+
+/* Header - Jumbotron */
+#jumbotron {
+  height: 490px;
+  padding-top: 65px;
+  background-color: #0049ff;
+  background-image: url('../assets/bg-banner-home.jpg');
+  background-size: cover;
+}
+
+.do_jumbo-box {
+  width: 100%;
+  min-height: 365px;
+  border-radius: 6px;
+}
+
+.do_jumbo-box span {
+
+}
+
+a.do_service-terms {
+  text-decoration: underline;
+}
+
+/* Main - Customers */
+#customers {
+  height: 275px;
+  background-color: #f3f5f9;
+}
+
+#customers li {
+  width: calc(100% / 6 - 20px);
+}
+
+#customers img {
+  max-width: 100%;
+}
+
+/* Main - Process */
+#process .do_v-menu {
+  padding-left: 10px;
+  border-left: 1px solid grey;
+}
+
+#process .do_v-menu li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
 
 /* Footer */
 
@@ -51,17 +147,17 @@
 /*
             MAIN MENU
 bg_white    BG: #fff
-ds_blue     Hamburger & Signup-button: #6899ff
-            <a> & dropdown color: #1e325e
+do_blue     Hamburger & Signup-button: #6899ff
+do_darkblue <a> & dropdown color: #031b4e
 
             JUMBOTRON-LEFT
             BG: (image)
 white       H1: #fff
-            Text: #b9cbff
+grey        Text: #fff opacity .8
 
             JUMBOTRON-RIGHT
 bg_white    BG: #fff
-            "Deploy": #031c4d
+            "Deploy": #031b4e
             "Get started": #066afe
             Placeholder: #848484
             1st Button BG: #579aff
@@ -74,7 +170,7 @@ bg_white    2nd Button BG: #fff
             CUSTOMERS
             BG: #f3f5f9
             Title: #f3f5f9
-ds_link     <a>: #397efe
+do_link     <a>: #0069ff
 
             PROCESS
             BG: #fff
@@ -83,24 +179,24 @@ s_text      Text: #606e8b
             Menu-left <a>: #7d86a0
             Menu-left border: #d6d6d6
 
-            SLIDER_DEMO
+            SLIDER-DEMO
 bg_slider   BG: #f3f5f9
             Section title & right-arrow: #031c4d
             Left-arrow: #707a97
 s_text      Text: #606e8b
-ds_circle   Circles BG / Border: #006afe
+do_circle   Circles BG / Border: #006afe
 
             FEATURES
 bg_white    BG: #fff
 s_title     Section title & mini-section titles: #1e325e
 s_text      Text: #606e8b
-ds_link     <a>: #397efe
+do_link     <a>: #0069ff
 
             WORLD-SPEED
             BG: linear-gradient
 white       Section title & code
 s_text      Location text: #606e8b
-ds_link*    <a>: #00ccd0 (manterrà l'::after)
+do_link*    <a>: #00ccd0 (manterrà l'::after)
             Border-bottom: white
 
             REVIEWS
@@ -109,16 +205,16 @@ bg_slider   BG: #f3f5f9
 s_text      slider text: #606e8b
             reviewer sign: #031c4d (fw500)
             reviewer role: #031c4d (fw400)
-ds_link     <a>: #397efe
-ds_circle   Circles BG / Border: #006afe
+do_link     <a>: #0069ff
+do_circle   Circles BG / Border: #006afe
 
             GET_STARTED
             BG: #0032ac
 white       Section title: #fff
 bg_white    button BG: #fff
-ds_blue     button text: #6899ff
+do_blue     button text: #6899ff
 
-            MAIN-FOOTER
+            FOOTER
             BG: #031c4d
             social icons, copyright: #7a849d
             subtext: #4d5b7d
