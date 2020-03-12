@@ -41,7 +41,7 @@
                     <li><a href="#">Docs</a></li>
                     <li><a href="#">Support</a></li>
                     <li><a href="#">Login</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#"class="btn btn-default" role="button">Sign Up</a></li>
                   </ul>
                 </div>
               </div>
@@ -64,12 +64,14 @@
           </div>
           <div class="col-sm-5">
             <div class="do_jumbo-box do_bg-white text-center">
-              <h3 class="do_darkblue">Deploy your app in seconds</h3>
-              <h3 class="do_electroblue">Get started now.</h3>
+              <div>
+                <h3 class="do_darkblue">Deploy your app in seconds</h3>
+                <h3 class="do_electroblue">Get started now.</h3>
+              </div>
               <input class="form-control" placeholder="Email" type="email">
               <input class="form-control" placeholder="Password" type="password">
-              <button class="btn btn-default btn-block" type="button">Create your account</button>
-              <button class="btn btn-default btn-block" type="button">Sign up with Google</button>
+              <button class="btn btn-default btn-block do_createaccount" type="button">Create your account</button>
+              <button class="btn btn-default btn-block do_google" type="button">Sign up with Google</button>
               <span>By signing up you agree to the <a href="#" class="do_service-terms">Terms of Service</a>.</span>
             </div>
           </div>
@@ -164,11 +166,26 @@
     <section id="slider-demo" class="do_bg-lightgrey">
       <div class="container text-center">
         <div class="row">
-          <h2>Designed for developers</h2>
-          <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
-          <div>Slider potentissimo con freccette</div>
-          <p>Create compute servers in 55 seconds or less.</p>
-          <div>Cerchio pieno + (cerchio vuoto)*3</div>
+          <div>
+            <h2>Designed for developers</h2>
+            <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+          </div>
+          <div class="col-xs-6 col-xs-offset-3 do_slider">
+            <a class="do_before"><i class="fas fa-angle-left"></i></a>
+            <img src="assets/create-droplet.jpg" alt="">
+            <a class="do_after"><i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <p>Create compute servers in 55 seconds or less.</p>
+            <div>
+              <div class="do_circle do_circlefull"></div>
+              <div class="do_circle"></div>
+              <div class="do_circle"></div>
+              <div class="do_circle"></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -280,9 +297,27 @@
     <section id="reviews" class="do_bg-lightgrey">
       <div class="container text-center">
         <div class="row">
-          <h2>Development teams love DigitalOcean</h2>
-          <div>Slider potentissimo con freccette</div>
-          <div>Cerchio pieno + (cerchio vuoto)*2</div>
+          <div>
+            <h2>Development teams love DigitalOcean</h2>
+          </div>
+          <div class="col-xs-6 col-xs-offset-3 do_slider do_bg-white">
+            <a class="do_before"><i class="fas fa-angle-left"></i></a>
+            <div class="text-center">
+              <img src="assets/rockerbox-logo.png" alt="">
+              <p class="do_quote">We have been able to make scaling the techinal infrastructure of our business cost effective and efficient.</p>
+              <h5>Rick O'Toole</h5>
+              <span class="do_role">Co-founder and CTO</span>
+              <a href="" class="do_link">Read story</a>
+            </div>
+            <a class="do_after"><i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <div class="do_circle do_circlefull"></div>
+            <div class="do_circle"></div>
+            <div class="do_circle"></div>
+          </div>
         </div>
       </div>
 
