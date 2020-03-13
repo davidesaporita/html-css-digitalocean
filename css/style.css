@@ -386,8 +386,19 @@ a.do_service-terms {
   font-size: 22px;
 }
 
-
-
+/* Get-started */
+#get-started {
+  padding-top: 60px;
+  height: 250px;
+}
+#get-started h2 {
+  padding-bottom: 10px;
+}
+#get-started button {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(3,27,78,.1);
+  font-weight: 600;
+}
 
 
 /* Footer */
@@ -462,7 +473,7 @@ a.do_service-terms {
   }
   /* Reviews */
   #reviews .do_description {
-    width: 400px;
+    width: 380px;
     font-size: 20px;
   }
   #reviews .do_link {
