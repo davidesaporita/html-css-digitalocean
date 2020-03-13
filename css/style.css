@@ -8,62 +8,55 @@ body {
 h1 {
   font-size: 40px;
 }
-
 h2 {
   color: #031b4e;
   font-size: 36px;
 }
-
 h3 {
   font-size: 30px;
   font-weight: 600;
   margin-top: 5px;
+}
+h5 {
+  font-size: 15.5px;
+  font-weight: 600;
+  color: #777;
 }
 
 /* Utilities */
 .do_bg-white {
   background-color: #fff;
 }
-
 .do_bg-lightgrey {
   background-color: #f3f5f9;
 }
-
 .do_bg-gradient {
   background-image: linear-gradient(to top,#001e9a,#0047c5);
 }
-
 .do_bg-deepblue {
   background-color: #031c4d;
 }
-
 .do_white {
   color: #fff;
 }
-
 .do_grey {
   color: #fff;
   opacity: .8;
 }
-
 .do_darkblue,
 .do_darkblue a {
   color: #031b4e;
 }
-
 .do_electroblue {
   color: #066afe;
 }
-
 .do_link {
   color: #0069ff;
 }
-
 .do_link::after {
   content: ' >';
   padding-left: 5px;
 }
-
 a.do_down::after {
   content: '\f078';
   padding-left: 2px;
@@ -75,15 +68,12 @@ a.do_down::after {
 #main-header {
   position: relative;
 }
-
 #navigation {
   position: relative;
   height: 65px;
 }
-
 #navigation .container-fluid {
 }
-
 #navigation .do_navbar {
   position: fixed;
   width: 100%;
@@ -94,46 +84,37 @@ a.do_down::after {
   z-index: 10;
   box-shadow: 0 2px 4px rgba(3,27,78,.1);
 }
-
 #navigation .do_navbar > .container {
   line-height: 70px;
   vertical-align: middle;
 }
-
 #navigation .do_brand {
   line-height: 65px;
   padding-left: 0;
 }
-
 #navigation .do_brand img {
   width: 160px;
   margin-bottom: 3px;
 }
-
 #navigation .do_navbar-collapse > div {
   padding-left: 0;
 }
-
 #navigation .do_navbar-collapse li {
   padding-right: 7px;
   padding-left: 7px;
 }
-
 #navigation .do_navbar > div:last-child {
   padding-right: 0;
 }
-
 #navigation button {
   border: 1px solid;
   font-weight: 600;
 }
-
 #navigation .hamburger {
   cursor: pointer;
   font-size: 30px;
   color: #2385fd;
 }
-
 #navigation ul li a {
   font-weight: 600;
   font-size: 16px;
@@ -148,26 +129,21 @@ a.do_down::after {
   background-image: url('../assets/bg-banner-home.jpg');
   background-size: cover;
 }
-
 .do_jumbo-text {
   font-size: 22px;
 }
-
 .do_jumbo-box {
   width: 100%;
   min-height: 365px;
   border-radius: 6px;
   padding: 20px;
 }
-
 .do_jumbo-box > div {
   padding-top: 15px;
 }
-
 .do_jumbo-box input {
   height: 45px;
 }
-
 .do_jumbo-box input,
 .do_jumbo-box button {
   margin-top: 10px;
@@ -176,30 +152,25 @@ a.do_down::after {
   border-color: #eee;
   font-weight: 700;
 }
-
 .do_jumbo-box ::placeholder {
   font-weight: 700;
   font-size: 16px;
 }
-
 .do_createaccount {
   background-color: #579AFF;
   border: none;
   box-shadow: 1px 1px 2px #bbb;
   color: #fff;
 }
-
 button.do_createaccount {
   font-weight: 400;
 }
-
 .do_google {
   position: relative;
   border: none;
   box-shadow: 1px 1px 2px #bbb;
   color: #6A6A6A;
 }
-
 .do_google::after {
   position: absolute;
   content: '';
@@ -212,12 +183,10 @@ button.do_createaccount {
   left: 2%;
   transform: translateY(-50%);
 }
-
 .do_jumbo-box span {
   font-size: 12px;
   font-weight: 600;
 }
-
 a.do_service-terms {
   text-decoration: underline;
   color: #2E7BFE;
@@ -225,15 +194,16 @@ a.do_service-terms {
 
 /* Main - Customers */
 #customers {
-  height: 275px;
+  padding: 50px 15px 30px;
 }
-
 #customers li {
-  width: calc(100% / 6 - 20px);
+  width: calc(100% / 2 - 20px);
 }
-
 #customers img {
   max-width: 100%;
+}
+#customers a {
+  font-weight: 500;
 }
 
 /* Main - Process */
@@ -241,12 +211,10 @@ a.do_service-terms {
   padding-left: 10px;
   border-left: 1px solid grey;
 }
-
 #process .do_v-menu li {
   padding-top: 7px;
   padding-bottom: 7px;
 }
-
 .do_slider {
   position: relative;
   width: 580px;
@@ -254,11 +222,9 @@ a.do_service-terms {
   max-width: 600px;
   max-height: 380px;
 }
-
 .do_slider img {
   max-width: 100%;
 }
-
 .do_before {
   display: inline-block;
   position: absolute;
@@ -269,7 +235,6 @@ a.do_service-terms {
   font-size: 50px;
   color: #707B97;
 }
-
 .do_after {
   display: inline-block;
   position: absolute;
@@ -280,7 +245,6 @@ a.do_service-terms {
   font-size: 50px;
   color: #021C4E;
 }
-
 .do_circle {
   display: inline-block;
   width: 10px;
@@ -288,7 +252,6 @@ a.do_service-terms {
   border-radius: 50%;
   border: 1px solid #006AFF;
 }
-
 .do_circlefull {
   background-color: #006AFF;
 }
@@ -301,11 +264,9 @@ a.do_service-terms {
 #footer {
   min-height: 1900px;
 }
-
 #footer p.do_grey {
   opacity: .5;
 }
-
 #footer span.do_grey {
   opacity: .3;
 }
@@ -318,13 +279,22 @@ a.do_service-terms {
 
 /* Responsive - Small Devices (graphic-2.png 776px) */
 @media all and (min-width: 768px) {
-
+  /* Customers */
+  #customers {
+    padding-top: 40px;
+  }
+  #customers li {
+    width: calc(100% / 6 - 20px);
+  }
 }
 
 
 /* Responsive - Medium Devices (no screenshot) */
 @media all and (min-width: 992px) {
-
+  /* Customers */
+  #customers {
+    min-height: 275px;
+  }
 }
 
 
@@ -333,12 +303,10 @@ a.do_service-terms {
   h1 {
     font-size: 64px;
   }
-
   h2 {
     color: #031b4e;
     font-size: 36px;
   }
-
   h3 {
     font-size: 30px;
     font-weight: 600;
@@ -349,91 +317,3 @@ a.do_service-terms {
     padding-top: 60px;
   }
 }
-
-
-/*  Colors */
-/*
-            MAIN MENU
-bg_white    BG: #fff
-do_blue     Hamburger & Signup-button: #6899ff
-do_darkblue <a> & dropdown color: #031b4e
-
-            JUMBOTRON-LEFT
-            BG: (image)
-white       H1: #fff
-grey        Text: #fff opacity .8
-
-            JUMBOTRON-RIGHT
-bg_white    BG: #fff
-            "Deploy": #031b4e
-            "Get started": #066afe
-            Placeholder: #848484
-            1st Button BG: #579aff
-white       1st Button Color: #fff
-bg_white    2nd Button BG: #fff
-            2nd Button Color: #717171
-            Subtext: #405075
-            Subtext <a>: #3680fe
-
-            CUSTOMERS
-            BG: #f3f5f9
-            Title: #f3f5f9
-do_link     <a>: #0069ff
-
-            PROCESS
-            BG: #fff
-s_title     Section title & mini-section titles: #1e325e
-s_text      Text: #606e8b
-            Menu-left <a>: #7d86a0
-            Menu-left border: #d6d6d6
-
-            SLIDER-DEMO
-bg_slider   BG: #f3f5f9
-            Section title & right-arrow: #031c4d
-            Left-arrow: #707a97
-s_text      Text: #606e8b
-do_circle   Circles BG / Border: #006afe
-
-            FEATURES
-bg_white    BG: #fff
-s_title     Section title & mini-section titles: #1e325e
-s_text      Text: #606e8b
-do_link     <a>: #0069ff
-
-            WORLD-SPEED
-            BG: linear-gradient
-white       Section title & code
-s_text      Location text: #606e8b
-do_link*    <a>: #00ccd0 (manterrà l'::after)
-            Border-bottom: white
-
-            REVIEWS
-bg_slider   BG: #f3f5f9
-            slider BG: #fff
-s_text      slider text: #606e8b
-            reviewer sign: #031c4d (fw500)
-            reviewer role: #031c4d (fw400)
-do_link     <a>: #0069ff
-do_circle   Circles BG / Border: #006afe
-
-            GET_STARTED
-            BG: #0032ac
-white       Section title: #fff
-bg_white    button BG: #fff
-do_blue     button text: #6899ff
-
-            FOOTER
-            BG: #031c4d
-            social icons, copyright: #7a849d
-            subtext: #4d5b7d
-white       column title: #fff
-s_text*     column <a>: #606e8b (just color)
-
-            CHAT
-            BG: image
-            BG fallback: #006afe
-            BG notifies number: #ff0100
-            BG chat: #fff
-            Chat text: #606e8b
-
-~ end colors */
