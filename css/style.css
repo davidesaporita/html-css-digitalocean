@@ -6,7 +6,7 @@ body {
 
 /* Typography */
 h1 {
-  font-size: 64px;
+  font-size: 40px;
 }
 
 h2 {
@@ -16,7 +16,7 @@ h2 {
 
 h3 {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 5px;
 }
 
@@ -64,26 +64,44 @@ h3 {
   padding-left: 5px;
 }
 
+a.do_down::after {
+  content: '\f078';
+  padding-left: 2px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
 /* Header - Navigation */
+#main-header {
+  position: relative;
+}
+
 #navigation {
+  position: relative;
   height: 65px;
+}
+
+#navigation .container-fluid {
 }
 
 #navigation .do_navbar {
-  /* position: relative; */
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(3,27,78,.1);
 }
 
 #navigation .do_navbar > .container {
-  /* position: fixed; */
-  height: 65px;
-  /* top: 0; */
-  /* left: 50%; */
-  /* transform: translateX(-50%); */
-  line-height: 65px;
+  line-height: 70px;
   vertical-align: middle;
 }
 
 #navigation .do_brand {
+  line-height: 65px;
   padding-left: 0;
 }
 
@@ -92,10 +110,40 @@ h3 {
   margin-bottom: 3px;
 }
 
+#navigation .do_navbar-collapse > div {
+  padding-left: 0;
+}
+
+#navigation .do_navbar-collapse li {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+#navigation .do_navbar > div:last-child {
+  padding-right: 0;
+}
+
+#navigation button {
+  border: 1px solid;
+  font-weight: 600;
+}
+
+#navigation .hamburger {
+  cursor: pointer;
+  font-size: 30px;
+  color: #2385fd;
+}
+
+#navigation ul li a {
+  font-weight: 600;
+  font-size: 16px;
+}
+
 /* Header - Jumbotron */
 #jumbotron {
-  height: 490px;
-  padding-top: 65px;
+  min-height: 490px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #0049ff;
   background-image: url('../assets/bg-banner-home.jpg');
   background-size: cover;
@@ -124,19 +172,25 @@ h3 {
 .do_jumbo-box button {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-weight: 700;
   padding-left: 5px;
+  border-color: #eee;
+  font-weight: 700;
 }
 
 .do_jumbo-box ::placeholder {
   font-weight: 700;
+  font-size: 16px;
 }
 
 .do_createaccount {
   background-color: #579AFF;
-  color: #fff;
   border: none;
   box-shadow: 1px 1px 2px #bbb;
+  color: #fff;
+}
+
+button.do_createaccount {
+  font-weight: 400;
 }
 
 .do_google {
@@ -159,8 +213,14 @@ h3 {
   transform: translateY(-50%);
 }
 
+.do_jumbo-box span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
 a.do_service-terms {
   text-decoration: underline;
+  color: #2E7BFE;
 }
 
 /* Main - Customers */
@@ -239,7 +299,7 @@ a.do_service-terms {
 }
 /* Footer */
 #footer {
-
+  min-height: 1900px;
 }
 
 #footer p.do_grey {
@@ -270,7 +330,24 @@ a.do_service-terms {
 
 /* Responsive - Large devices (graphic-1.png 1630px)*/
 @media all and (min-width: 1200px) {
+  h1 {
+    font-size: 64px;
+  }
 
+  h2 {
+    color: #031b4e;
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+
+  #jumbotron {
+    padding-top: 60px;
+  }
 }
 
 
