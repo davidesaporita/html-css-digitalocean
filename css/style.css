@@ -400,17 +400,58 @@ a.do_service-terms {
   font-weight: 600;
 }
 
-
 /* Footer */
 #footer {
-  min-height: 1900px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-#footer p.do_grey {
+#brandcopy {
+  padding-bottom: 12px;
+}
+#brandcopy img {
+  padding-bottom: 10px;
+}
+#brandcopy p {
+  font-size: 16px;
+  margin-bottom: 0px;
   opacity: .5;
 }
-#footer span.do_grey {
+
+#social {
+  padding-bottom: 15px;
+}
+#social i {
+  font-size: 22px;
+}
+
+#footer span.do_grey,
+#social a.do_grey {
   opacity: .3;
 }
+
+.do_footerlist {
+  padding-bottom: 10px;
+}
+.do_footerlist li a {
+  color: #aaa;
+  opacity: .8;
+  font-weight: 400;
+}
+.do_footerlist li {
+  padding-bottom: 7px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
 
 /* Responsive - Small Devices (graphic-2.png 776px) */
 @media all and (min-width: 768px) {
