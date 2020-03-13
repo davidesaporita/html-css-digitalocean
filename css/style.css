@@ -57,6 +57,7 @@ h6 {
 }
 .do_link {
   color: #0069ff;
+  font-weight: 600;
 }
 .do_link::after {
   content: ' >';
@@ -70,7 +71,7 @@ a.do_down::after {
 }
 .do_description,
 .do_description a {
-  font-size: 20px;
+  font-size: 18px;
   color: #777;
 }
 
@@ -245,9 +246,6 @@ a.do_service-terms {
 #slider-demo {
   padding: 80px 11px 70px;
 }
-#slider-demo .do_description {
-  font-size: 22px;
-}
 #slider-demo .row:first-child > div:first-child {
   padding-bottom: 160px;
 }
@@ -293,8 +291,24 @@ a.do_service-terms {
   background-color: #006AFF;
 }
 
-
-
+/* Features */
+#features {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#features .row > div {
+  min-height: 180px;
+  padding-bottom: 30px;
+}
+#features h2 {
+  padding-bottom: 25px;
+}
+#features img {
+  padding-bottom: 10px;
+}
+#features .do_link {
+  font-size: 16px;
+}
 
 
 
@@ -373,6 +387,14 @@ a.do_service-terms {
   }
   .do_after {
     right: -40px;
+  }
+  /* Features */
+  #features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #features p {
+    font-size: 15.7px;
   }
 }
 
