@@ -310,14 +310,43 @@ a.do_service-terms {
   font-size: 16px;
 }
 
-
-
-
-
-
-
-
-
+/* World speed */
+.do_novpad {
+  padding-right: 0;
+  padding-left: 0;
+}
+#world-speed {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#world-speed h2 {
+  padding-bottom: 10px;
+}
+#world-speed span {
+  font-size: 12.5px;
+}
+#world-speed .col-xs-7 span {
+  font-weight: 600;
+  color: #88A2DC;
+}
+#world-speed .do_tables {
+  padding: 0 15px 20px;
+}
+#world-speed .do_tables > div:first-child {
+  margin-bottom: 20px;
+}
+#world-speed .row .row {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid white;
+}
+#world-speed .row .row:last-child {
+  border: none;
+}
+#world-speed .do_link {
+  color: #00C7CF;
+  font-size: 13px;
+}
 
 
 #reviews .do_slider > div {
@@ -396,6 +425,12 @@ a.do_service-terms {
   #features p {
     font-size: 15.7px;
   }
+  /* World speed */
+  #world-speed {
+    padding-top: 60px;
+    padding-bottom: 90px;
+  }
+
 }
 
 
@@ -425,6 +460,13 @@ a.do_service-terms {
   }
   #slider-demo .row:first-child > div:first-child {
     padding-bottom: 60px;
+  }
+  /* World speed */
+  #world-speed {
+    padding-bottom: 70px;
+  }
+  #world-speed .row .row {
+    margin-right: 7.5px;
   }
 }
 
